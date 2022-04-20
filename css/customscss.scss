@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@include _premenne;
+
+
+@media screen and (min-width: 1401px){
+
+    .section1 {  
+        height:100vh;
+        webkit:100vw;
+        background-color: $farbapozadia;
+    }
+    
+    .section2 {
+        height: 50vh;
+        width: 50%;
+        float: left;
+        background-color: rgb(86, 158, 27);
+    }
+    
+    .section3 {
+        height: 50vh;
+        width: 50%;
+        float: left;
+        background-color: rgb(61, 151, 167);
+    }
+
+    .section4 {
+        background-color: cornsilk;
+        height:100vh;
+        width: 100%;
+    }
+ } 
+
+@media screen and (min-width: 1001px) and (max-width: 1400px){
+
+.section1 {
+    height: 50%;
+    width: 100%;
+    height:100vh;
+        webkit:100vw;
+    background-color: rgb(189, 58, 58);
+}
+
+.section2 {
+    height: 100vh;
+    width: 50%;
+    float: left;
+    background-color: rgb(86, 158, 27);
+}
+
+.section3 {
+    height: 100vh;
+    width: 50%;
+    float: left;
+    background-color: rgb(61, 151, 167);
+} 
+}
+
+@media screen and (min-width: 751px)and (max-width: 1000px){
+    .section1 {
+        height: 50%;
+        width: 100%;
+        height:100vh;
+        webkit:100vw;
+        background-color: rgb(21, 22, 87);
+    }
+    
+    .section2 {
+        height:100vh;
+        width: 50%;
+        float: left;
+        background-color: rgb(240, 144, 81);
+    }
+    
+    .section3 {
+        height: 100vh;
+        width: 50%;
+        float: left;
+        background-color: rgb(42, 73, 24);
+    }
+ } 
+@media screen and (min-width: 501px)and (max-width: 750px){
+    .section1 {
+        height: 50%;
+         width: 100%;
+         height:100vh;
+        webkit:100vw;
+         background-color: rgb(21, 22, 87);
+     }
+        
+     .section2 {
+          height: 100vh;
+          width: 50%;
+          float: left;
+          background-color: rgb(240, 144, 81);
+     }
+        
+     .section3 {
+         height: 100vh;
+          width: 50%;
+          float: left;
+           background-color: rgb(42, 73, 24);
+      }  
+    }
+
+@media screen and (min-width: 231px) and (max-width: 500px){
+
+    .section1 {
+        height: 50%;
+         width: 100%;
+         height:100vh;
+        webkit:100vw;
+          background-color: rgb(189, 58, 58);
+       }
+        
+    .section2 {
+        height: 100vh;
+         width: 50%;
+        float: left;
+         background-color: rgb(86, 158, 27);
+      }
+        
+       .section3 {
+         height: 100vh;
+         width: 50%;
+         float: left;
+          background-color: rgb(61, 151, 167);
+      } 
+    }
+
+@media screen and (min-width: 0px) and (max-width: 230px){
+
+    .section1 {
+           height: 50%;
+         width: 100%;
+         height:100vh;
+        webkit:100vw;
+          background-color: rgb(189, 58, 58);
+                   }
+            
+       .section2 {
+         height: 100vh;
+         width: 50%;
+        float: left;
+            background-color: rgb(86, 158, 27);
+          }
+            
+         .section3 {
+           height: 100vh;
+          width: 50%;
+          float: left;
+            background-color: rgb(61, 151, 167);
+          }      
+     }
+

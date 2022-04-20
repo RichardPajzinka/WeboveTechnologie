@@ -1,0 +1,23 @@
+* {
+  font-size: 1rem;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  height: 100vh;
+  webkit: 100vw;
+  background: url(../img/e533c4b8d2d2d3798f3271c35ca6e050_XL.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.centrovanie {
+  text-align: center;
+  padding: 40vh 50px 50px;
+  color: cornsilk;
+}
+
+.textcentorvanie {
+  text-align: left;
+  margin: 50px;
+}/*# sourceMappingURL=custom2scss.css.map */

@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0;
+}
+
+@import "_premenne";
+@import "_funckie";
+
+
+.header {
+	@include custom4header();
+	background-color: $farbacustom4header;
+	color: $farbacustom4colorwhite;
+}
+h1 {
+	font-size: 40px;
+}
+.navbar {
+	overflow: hidden;
+	background-color: $farbacustom4navabr;
+}
+.row {
+	@include custom4row();
+}
+a {
+	@include custom4a();
+}
+.sekcia_zmena {
+	-ms-flex: 100%;
+	flex: 100%;
+	background-color: $farbacustom4colorwhite;
+	padding: 20px;
+}
+.footer {
+	@include custom4footer();
+	background: $farbacustom4footer;
+	
+}
+
+#imgContainer {
+	@include cusotom4imgcontainer();
+	background-color: $farbacustom4imgcontainer;
+	
+}
+.droptarget {
+	float: left;
+	width: 100px;
+	height: 35px;
+	margin: 15px;
+	padding: 10px;
+	border: 1px solid $farbacustom4droptarget;
+}
+@media screen and (max-width: 750px) {
+	.row {
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 500px) {
+	.navbar {
+		a {
+			float: none;
+			width: 100%;
+		}
+	}
+}

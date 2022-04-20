@@ -1,0 +1,24 @@
+* {
+	font-size: 1rem;
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.header {
+	@include custom2header();
+	background: url(../img/e533c4b8d2d2d3798f3271c35ca6e050_XL.jpg) no-repeat center center fixed;
+	
+}
+
+
+
+.centrovanie {
+	@include custom2centrovanie();
+}
+
+
+.textcentorvanie {
+	@include custom2textcentrovanie();
+}

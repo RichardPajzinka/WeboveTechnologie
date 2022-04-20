@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>jvscript</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../Richard_Pajzinka/css/custom4scss.css">
+<script src="../Richard_Pajzinka/scripts/main.js"></script>
+<script src="../Richard_Pajzinka/scripts/4a.js"></script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../Richard_Pajzinka/scripts/jquery.js"></script>
+
+
+
+
+</head>
+<body>
+<div id="square"></div>
+<div class="header">
+  <h1>JVscript ulohy</h1>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Uvodna strana</a>
+  <a href="index1.html">Hory/bootstrap</a>
+  <a href="vypis_udajov.php">databazy - zadanie2</a>
+  
+
+</div>
+
+<div class="row">
+  <div class="sekcia_zmena" id="demo">
+    <h2>Sekcia Zmena</h2>
+    <h5>Nov 4, 2021</h5>
+    <p>Stránka zo začiatku vôbec nevyzerala tak ako teraz. Prvé pokusy o stránku vychádzali z rozdelenia daných „breakpointov“ a podlá nich sa stránka mala chovať s tým že by sa menila farba ako to môžeme vidieť custom.css. S myšlienkou to takto nechať navrhnute a pracovať s tým ďalej bolo ťažšie preto som sa rozhodol že prejdem na flex-box(custom3.css,custom4.css). Práca s flexboxom celkovo čo sa týka responsibility a uprav je jednoduchšia nezaberá veľa času a da sa lepšie upravovať webova stránka. Z pohľadu UX/UI dizajnu – User experience (UX) – preložené do slovenčiny užívateľská skúsenosť. Je to oblasť dizajnu, ktorá sa zaoberá pocitmi a zážitkami človeka pri interakcii so systémom, či už ide o webovú stránku, aplikáciu alebo softvér. UX sa zaoberá výskumom cieľovej skupiny užívateľov, interakčným dizajnom, tvorbou prototypov a wireframov. User Interface (UI) v preklade znamená užívateľské rozhranie. Je to oblasť dizajnu, ktorá sa sústredí na vývoj rozhrania systému, či už ide o aplikácie, webové stránky alebo softvéry. UI sa zaoberá farebnou škálou, typografickými prvkami, vizuálnym dizajnom alebo rozložením prvkov. Oba druhy dizajnu majú podobný cieľ, a to vždy uspokojiť zákazníka a vždy sa zamerať na potreby a schopnosti používateľa. Ich snahou je vytvoriť dizajn, ktorý zabezpečí čo najjednoduchšie a najefektívnejšie používanie produktu. Dizajn musí byť vyvážený – rovnováha dizajnu medzi jeho technickou a vizuálnou stránkou je veľmi krehká. Svojím spracovaním musí prilákať užívateľa naspäť a ten sa k produktu potom rád vráti. Dizajn umožňuje užívateľovi vykonať vopred stanovenú činnosť bez akýchkoľvek problémov, a zároveň v ňom vyvoláva pozitívne pocity pri užívaní produktu. Úvodná webová stránka obsahuje preto svetle farby aby u užívatelia vyvolala prijemný pocit. Tlačidla a hlavne linky na ostatne webové stránky sú umiestnene hneď pod hlavným titulom aby to pre užívateľa bolo pohodlnejšie a rýchlo prístupne. Stránka ktorá bola vytvorená pomocou bootstrapu tiež obsahuje a je optimalizovaná z pohľadu responzivneho chovania na akýchkoľvek zariadeniach. Prvky UX/UI dizajnu sú tu taktiež umiestnene a spracovane ako na úvodnej stránke. Druha stránka ktorá je vytvorená pomocou bootstrapu je klasická stránka kde sa nachádza úvodná strana na ktorej je background obrázok s nadpisom. Nižšie pod touto sekciou sa nachádza navigačný bar pomocou ktorého sa vieme premiestňovať na iné stránky konkrétne v našom prípade na úvodnú stránku a ja Jvscript stránku kde sú vypracovane úlohy. Bootstrap stránka je jednoduchá stránka na ktorej sa nachádza text a hneď pod textom su Karty v ktorých su stručne informácie. Cela stránka disponuje responsibilitou a taktiež keď sa stránka zmenšuje obrázky na ten stránke sa tiež prispôsobujú, cela tato stránka disponuje a je navrhnutá z pohľadu UI/UX na tejto stránke neboli nejaké problémy ktoré by som mohol riešiť alebo ktoré by som vylepšoval. Posledná stránka ktorá sa nachádza v zadaní je stránka JVscript. Na tejto stránke sa používajú tie iste flexboxy ako na prvej úvodnej strane s tým rozdielom že niektoré sekcie sa vyhodili a ostatne sa upravili. Na tejto stránke hneď pod úvodnom Titlom sa nachádza navigačný bar prostredníctvom ktorého sa vieme presúvať na rôzne iné stránky(úvodnú , Bootstrap stránku). Sekcia zmena disponuje textom ktorý sa pomocou tlačidiel nižšie da modifikovať. Su tu využite tlačidla ako „Drag me “ inak povedane ak presunieme tento text do druhého polička tak cela sekcia sa nám zväčši. Druhé tlačidlo ktoré tu je využite je na kliknutie a tretie ktoré sa využilo je na namierenie kurzora. Pod týmto sa nachádza obrázok ktorý môžeme zväčšiť a taktiež ak na neho klikneme tak ho vieme dostáť na stred obrazovky tak ako sa píše v zadaní. Zväčšenie obrázka je spravene pomocou jvscriptu ale následne jeho zobrazenie na stred obrazovky je spravene pomocou jquery. V poslednom rade sa na stránke nachádzajú tlačidla pre rozlíšenia ktoré ak stlačíme a stránku zmenšime načíta sa dane CSS prostredníctvom jvscriptu. Cely tento nalinkovaný jvscript sa nachádza v spodnej časti HTML kódu. Veľká výhoda toho je že nemusíme linkovať iné CSS ale nalinkujeme len jvscript a cez neho potom vieme volať CSS a robiť zmeny na stránke. </p>
+  <button type="button" onclick="zvacsiclick()">Clickni na mna pre zvačšenie</button>
+  <button type="button" onclick="zmensiclick()">Clikni na mna pre zmenšenie</button>
+  
+  <button type="button" onmouseover="zvacsiclick()">Namier na mna kurzorom pre zvačšenie</button>
+  <button type="button" onmouseover="zmensiclick()">Namier na kurzorom pre zmenšenie</button>
+
+
+<div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget">Drag me!</p>
+</div>
+
+<div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<p style="clear:both;" id="demo"></p>
+
+<button type="button" onclick="zmensiclick()">Po každom premiestneni stlač ma</button>
+
+  </div>
+<div class="rozlisenia">
+  <div class="myclass">
+  <img id="myImg" src="../Richard_Pajzinka/img/Ciri_ashen-haired.0.jpg" width="150" height="100">
+</div>
+</div>
+  <button onclick="obrazok()">zvačši ma</button>
+  <button onclick="obrazok1()">zmenši ma</button>
+
+  <div id="imgContainer">
+    <div class="zooimg" id="divimg"></div>
+</div>
+
+<p>kliknut na obrazok a da sa na stred obrazovky</p>
+
+
+
+
+</div>
+
+<div class="rozlisenia">
+<p>klikni na rozlišenie a potom zmenši stranku a uvidiš zmenu</p>
+<button onclick="nacitat700()">načitanie 700px</button>
+<button onclick="nacitat900()">načitanie 900px</button>
+
+<button onclick="nacitat1300()">načitanie 1300px</button>
+<button onclick="nacitat1600()">načitanie 1600px</button>
+</div>
+
+<div class="footer">
+  <p>Richard Pajzinka</p>
+  <p>richard.pajzinka@student.tuke.sk</p>
+  <p>+421 0905 890 442</p>
+  
+</div>
+</div>
+
+
+<script src="../Richard_Pajzinka/scripts/posledny.js"></script>
+</body>
+</html>

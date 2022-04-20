@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0;
+}
+
+
+@import "_funkcie";
+@import "_premenne";
+
+.header {
+	@include custom3header();
+	color: $farbacustom3a;
+
+}
+h1 {
+	font-size: 40px;
+}
+
+
+
+.navbar {
+	background-color: rgb(10, 10, 10);
+	overflow: hidden;
+}
+
+a {
+	@include custom3a();
+	color: $farbacustom3a;
+}
+
+.row {
+	@include custom3row();
+}
+.side {
+	-ms-flex: 35%;
+	flex: 35%;
+	background-color: $farbacustom3a;
+	padding: 20px;
+}
+.main {
+	-ms-flex: 65%;
+	flex: 65%;
+	background-color: $farbacustom3a;
+	padding: 20px;
+}
+.img {
+	width: 100%;
+	padding: 20px;
+	height: 80%;
+}
+.obr {
+	width: 50%;
+	height: 200px;
+}
+.konicky {
+	height: 100px;
+	width: 200px;
+}
+.footer {
+	@include cusotm6footer();
+}
+@media screen and (max-width: 750px) {
+	.row {
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 500px) {
+	.navbar {
+		a {
+			float: none;
+			width: 100%;
+		}
+	}
+}

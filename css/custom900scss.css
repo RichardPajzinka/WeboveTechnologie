@@ -1,0 +1,43 @@
+mixin custom2textcentrovanie {
+  text-align: left;
+  margin: 50px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .header {
+    width: 100%;
+    height: 100vh;
+    webkit: 100vw;
+    background-color: cadetblue;
+    color: #ce308c;
+  }
+
+  .navbar .rozlisenia {
+    height: 100vh;
+    width: 50%;
+    float: left;
+    background-color: #569e1b;
+  }
+
+  .row {
+    height: 100vh;
+    width: 50%;
+    float: left;
+    background-color: #3d97a7;
+  }
+
+  .sekcia_zmena {
+    height: 50%;
+    width: 100%;
+    height: 300vh;
+    webkit: 100vw;
+    background-color: #bd3a3a;
+  }
+
+  .footer {
+    height: 20vh;
+    width: 50%;
+    float: left;
+    background-color: #569e1b;
+  }
+}/*# sourceMappingURL=custom900scss.css.map */

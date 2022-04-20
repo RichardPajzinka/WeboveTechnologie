@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+mixin custom2textcentrovanie {
+  text-align: left;
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+  padding: 40vh 50px 50px;
+  font-size: 40px;
+}
+
+.section1 {
+  background: url(../img/Fotolia-132597694-M.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+a:link {
+  color: blue;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: #d3bbbb;
+}
+a:focus {
+  color: yellow;
+}
+
+.obr {
+  width: 50%;
+  height: auto;
+}/*# sourceMappingURL=custom1scss.css.map */

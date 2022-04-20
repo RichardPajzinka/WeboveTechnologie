@@ -1,0 +1,24 @@
+Použiva sa WAMPSERVER
+
+PhpMyAdmin 5.1.1
+kde v adresári www je prilezená cela zložka s projektom ktorá sa následne spúšťa prostredníctvom web browseru.
+Treba samozrejme ešte importnut databázu- keďže ta ktorá je bola robená cez local server. Pre správny chod programu treba 
+importnut tuto do MySQL. Prihlásenie cez meno - "root" , heslo - "" , stlačíte import a importnete súbor "rodinny_prislusnici.sql"
+Tento súbor mne vyšiel keď som dal exportovať databazu. V tom súbore by sa mala nachádzať meno databázy + meno tabuľky a jeho value.
+
+
+
+specifikacie WAMPSERVER -
+Apache 2.4
+MySQL 5 & 8
+MariaDB 10
+PHP 5, 7 & 8
+
+Chrome - 
+Verzia 96.0.4664.110
+
+Ak toto všetko sedí a súbor sa dal aj do adresa kde ma , stačí isť na Web prehliadač kde sa zadá v mojom pripade - 
+localhost\Richard_Pajzinka. Hneď by sa mala otvoriť úvodná stránka kde sa viete prekliknúť na databázu. Na danej databáze
+mame možnosti buď pridať člena alebo sortovať už členov ktorý tam sú. Po kliknutí pre pridanie člena sa nám otvory formulár
+kde musíme zadať potrebne údaje, v prípade že sa nezadajú je tam error handling. Po stlačený tlačidla submit sa nám pridá člen 
+a hodí nás to na databázu. 

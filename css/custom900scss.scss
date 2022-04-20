@@ -1,0 +1,43 @@
+
+@import "_premenne";
+@import "_funkcie";
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+
+
+
+	.header {
+		width: 100%;
+		height: 100vh;
+		webkit: 100vw;
+		background-color: $farbacustom700headercolor;
+		color:  $farbacustom700navbar;
+	}
+	.navbar {
+		.rozlisenia {
+			height: 100vh;
+			width: 50%;
+			float: left;
+			background-color: $farbacustom900navbar1;
+		}
+	}
+	.row {
+		height: 100vh;
+		width: 50%;
+		float: left;
+		background-color: $farbacustom900row;
+	}
+	.sekcia_zmena {
+		height: 50%;
+		width: 100%;
+		height: 300vh;
+		webkit: 100vw;
+		background-color:  $farbacustom900sekcia_zmena;
+	}
+	.footer {
+		height: 20vh;
+		width: 50%;
+		float: left;
+		background-color:  $farbacustom900footer;
+	}
+}

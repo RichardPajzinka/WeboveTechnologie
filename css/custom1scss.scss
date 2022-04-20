@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@import "_premenne";
+@import "_funkcie";
+
+
+
+h1 {
+	@include h1custom1();
+}
+.section1 {
+	background: url(../img/Fotolia-132597694-M.png) no-repeat center center fixed;
+	@include section();
+}
+a {
+	&:link {
+		color: $farbalink;
+	}
+	&:visited {
+		text-decoration: none;
+	}
+	&:hover {
+		color: $farbahover;
+	}
+	&:active {
+		color: $farbaactive;
+	}
+	&:focus {
+		color: $farbafocus;
+	}
+}
+.obr {
+	@include obr;
+}
